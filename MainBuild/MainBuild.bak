@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+LIBS:MainBuild-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5D34A907
+P 8340 2960
+F 0 "M?" H 8672 3025 50  0000 L CNN
+F 1 "Motor_Servo" H 8672 2934 50  0000 L CNN
+F 2 "" H 8340 2770 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8340 2770 50  0001 C CNN
+	1    8340 2960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5D34B07C
+P 8370 3500
+F 0 "M?" H 8702 3565 50  0000 L CNN
+F 1 "Motor_Servo" H 8702 3474 50  0000 L CNN
+F 2 "" H 8370 3310 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8370 3310 50  0001 C CNN
+	1    8370 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5D34BD78
+P 8400 4000
+F 0 "M?" H 8732 4065 50  0000 L CNN
+F 1 "Motor_Servo" H 8732 3974 50  0000 L CNN
+F 2 "" H 8400 3810 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8400 3810 50  0001 C CNN
+	1    8400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_Servo M?
+U 1 1 5D34CC1B
+P 8400 4500
+F 0 "M?" H 8732 4565 50  0000 L CNN
+F 1 "Motor_Servo" H 8732 4474 50  0000 L CNN
+F 2 "" H 8400 4310 50  0001 C CNN
+F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 8400 4310 50  0001 C CNN
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:AdaFruitPowerBoost500 U?
+U 1 1 5D34F562
+P 6990 880
+F 0 "U?" H 7418 351 50  0000 L CNN
+F 1 "AdaFruitPowerBoost500" H 7418 260 50  0000 L CNN
+F 2 "" H 6990 880 50  0001 C CNN
+F 3 "" H 6990 880 50  0001 C CNN
+	1    6990 880 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Firebeetle:DFR0478 U?
+U 1 1 5D34FE83
+P 4260 2050
+F 0 "U?" H 5060 2315 50  0000 C CNN
+F 1 "DFR0478" H 5060 2224 50  0000 C CNN
+F 2 "FIREBEETLE_ESP32" H 5710 2150 50  0001 L CNN
+F 3 "https://github.com/Robert-MARKII/Document/blob/master/FireBeetle%20Board-ESP32%20User%20Manual%20update.pdf" H 5710 1850 50  0001 L CNN
+F 4 "Development Boards & Kits - Wireless FireBeetle ESP32 IOT MCU" H 5710 1750 50  0001 L CNN "Description"
+F 5 "DFRobot" H 5710 1550 50  0001 L CNN "Manufacturer_Name"
+F 6 "DFR0478" H 5710 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "426-DFR0478" H 5710 1350 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=426-DFR0478" H 5710 1250 50  0001 L CNN "Mouser Price/Stock"
+	1    4260 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5D3522D4
+P 2940 3490
+F 0 "BT1" H 3058 3586 50  0000 L CNN
+F 1 "3.7v" H 3058 3495 50  0000 L CNN
+F 2 "" V 2940 3550 50  0001 C CNN
+F 3 "~" V 2940 3550 50  0001 C CNN
+	1    2940 3490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2940 3290 3810 3290
+Wire Wire Line
+	3810 3290 3810 3750
+Wire Wire Line
+	3810 3750 4260 3750
+Wire Wire Line
+	4030 3590 4030 3450
+Wire Wire Line
+	4030 3450 4260 3450
+Wire Wire Line
+	2940 3590 4030 3590
+Wire Wire Line
+	3810 1230 3810 3290
+Connection ~ 3810 3290
+Wire Wire Line
+	6490 1330 4030 1330
+Wire Wire Line
+	4030 1330 4030 3450
+Connection ~ 4030 3450
+Wire Wire Line
+	7570 4600 8100 4600
+Wire Wire Line
+	8100 4100 7570 4100
+Connection ~ 7570 4100
+Wire Wire Line
+	7570 4100 7570 4600
+Wire Wire Line
+	8070 3600 7570 3600
+Connection ~ 7570 3600
+Wire Wire Line
+	7570 3600 7570 4100
+Wire Wire Line
+	8040 3060 7570 3060
+Connection ~ 7570 3060
+Wire Wire Line
+	7570 3060 7570 3600
+Wire Wire Line
+	6490 1630 6340 1630
+Wire Wire Line
+	6490 1730 6490 2300
+Wire Wire Line
+	6490 2300 7050 2300
+Wire Wire Line
+	7800 2960 7800 3500
+Wire Wire Line
+	7800 4000 8100 4000
+Wire Wire Line
+	7800 2960 8040 2960
+Wire Wire Line
+	8070 3500 7800 3500
+Connection ~ 7800 3500
+Wire Wire Line
+	7800 3500 7800 4000
+Wire Wire Line
+	7800 4000 7800 4500
+Wire Wire Line
+	7800 4500 8100 4500
+Connection ~ 7800 4000
+$Comp
+L Device:CP C1
+U 1 1 5D356A9F
+P 7050 2150
+F 0 "C1" H 7168 2196 50  0000 L CNN
+F 1 "1000uF" H 7168 2105 50  0000 L CNN
+F 2 "" H 7088 2000 50  0001 C CNN
+F 3 "~" H 7050 2150 50  0001 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6340 1630 6340 1990
+Wire Wire Line
+	7570 1990 7570 3060
+Wire Wire Line
+	6340 1990 7050 1990
+Wire Wire Line
+	7050 1990 7050 2000
+Connection ~ 7050 1990
+Wire Wire Line
+	7050 1990 7570 1990
+Wire Wire Line
+	7800 2960 7800 2300
+Wire Wire Line
+	7800 2300 7050 2300
+Connection ~ 7800 2960
+Connection ~ 7050 2300
+Wire Wire Line
+	7120 2860 7120 2850
+Wire Wire Line
+	7120 2860 8040 2860
+Wire Wire Line
+	8070 3400 7140 3400
+Wire Wire Line
+	7140 3400 7140 3410
+Wire Wire Line
+	8100 3900 7180 3900
+Wire Wire Line
+	8100 4400 7200 4400
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D3660D8
+P 6150 1430
+F 0 "SW?" H 6150 1320 50  0000 C CNN
+F 1 "SW_SPST" H 6160 1790 50  0001 C CNN
+F 2 "" H 6150 1430 50  0001 C CNN
+F 3 "~" H 6150 1430 50  0001 C CNN
+	1    6150 1430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3810 1230 6490 1230
+Wire Wire Line
+	6350 1430 6490 1430
+Wire Wire Line
+	5950 1430 5950 1630
+Wire Wire Line
+	5950 1630 6340 1630
+Connection ~ 6340 1630
+Text Notes 6150 3210 0    50   ~ 0
+TODO: Select the pins for motors
+$EndSCHEMATC

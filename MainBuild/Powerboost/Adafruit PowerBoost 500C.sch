@@ -1,0 +1,1039 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 11980 8396
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3800 5800 3500 5800
+Wire Wire Line
+	3500 5800 3500 6600
+Wire Wire Line
+	3800 5600 3500 5600
+Wire Wire Line
+	3500 5600 3500 5800
+Connection ~ 3500 5800
+Text Label 3800 5800 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 5600 2500 5700
+Text Label 2500 5600 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 5600 1900 5700
+Text Label 1900 5600 0    10   ~ 0
+GND
+Wire Wire Line
+	4800 5800 5000 5800
+Wire Wire Line
+	5000 5800 5000 6600
+Connection ~ 5000 5800
+Text Label 4800 5800 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 5400 5200 5500
+Text Label 5200 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	5500 5400 5500 5500
+Text Label 5500 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 5100 6200 5200
+Wire Wire Line
+	6200 5100 6300 5100
+Text Label 6200 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	6800 4400 6900 4400
+Wire Wire Line
+	6900 4400 6900 4500
+Text Label 6800 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 4900 7500 4900
+Text Label 7600 4900 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 5700 7500 5700
+Wire Wire Line
+	7500 5700 7500 5800
+Text Label 7600 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 5400 8200 5500
+Text Label 8200 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 6600 3100 6500
+Text Label 3100 6600 0    10   ~ 0
+GND
+Wire Wire Line
+	4500 3500 4500 4300
+Text Label 4500 4100 1    70   ~ 0
+GND
+Wire Wire Line
+	7100 3000 7300 3000
+Wire Wire Line
+	7300 3000 7400 3000
+Wire Wire Line
+	7400 3000 7400 3200
+Wire Wire Line
+	7400 2800 7300 2800
+Wire Wire Line
+	7300 2800 7300 3000
+Connection ~ 7300 3000
+Text Label 7100 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 3000 7700 3200
+Text Label 7700 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	10700 2700 10700 3500
+Wire Wire Line
+	10700 3500 10700 3600
+Wire Wire Line
+	10100 2800 10200 2800
+Wire Wire Line
+	10200 2800 10200 3500
+Wire Wire Line
+	10200 3500 10700 3500
+Connection ~ 10700 3500
+Text Label 10700 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	8000 3100 8000 3200
+Wire Wire Line
+	8100 3100 8000 3100
+Text Label 8000 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 4300 4300 3500
+Text Label 4300 4100 1    70   ~ 0
+GND
+Wire Wire Line
+	3800 5000 3400 5000
+Wire Wire Line
+	3800 5400 3300 5400
+Wire Wire Line
+	3300 5800 3300 5400
+Wire Wire Line
+	3300 5800 3100 5800
+Wire Wire Line
+	3100 5800 3100 5600
+Wire Wire Line
+	3100 5800 3100 6100
+Connection ~ 3100 5800
+Wire Wire Line
+	4800 5000 5000 5000
+Wire Wire Line
+	5000 5000 5200 5000
+Wire Wire Line
+	5200 5000 5500 5000
+Wire Wire Line
+	5500 5000 5900 5000
+Wire Wire Line
+	5900 5000 5900 4400
+Wire Wire Line
+	5900 4400 5900 4200
+Wire Wire Line
+	5200 5100 5200 5000
+Wire Wire Line
+	6000 4400 5900 4400
+Wire Wire Line
+	5500 5000 5500 5100
+Wire Wire Line
+	6300 5000 5900 5000
+Connection ~ 5200 5000
+Connection ~ 5900 5000
+Connection ~ 5900 4400
+Connection ~ 5500 5000
+Connection ~ 5000 5000
+Text Label 4800 5000 0    10   ~ 0
+5.0V
+Wire Wire Line
+	7600 4600 7500 4600
+Wire Wire Line
+	7500 4600 7500 4500
+Text Label 7600 4600 0    10   ~ 0
+5.0V
+Wire Wire Line
+	7600 5400 7500 5400
+Wire Wire Line
+	7500 5400 7500 5300
+Text Label 7600 5400 0    10   ~ 0
+5.0V
+Wire Wire Line
+	8200 5000 8200 4900
+Text Label 8200 5000 0    10   ~ 0
+5.0V
+Wire Wire Line
+	4600 3500 4600 4300
+Text Label 4600 4100 1    70   ~ 0
+5.0V
+Wire Wire Line
+	8100 5400 8000 5400
+Wire Wire Line
+	8200 5200 8100 5200
+Wire Wire Line
+	8100 5200 8100 5400
+Wire Wire Line
+	8100 5400 8100 5700
+Wire Wire Line
+	8100 5700 8000 5700
+Connection ~ 8100 5400
+Wire Wire Line
+	8100 4600 8000 4600
+Wire Wire Line
+	8100 4900 8000 4900
+Wire Wire Line
+	8100 4900 8100 4600
+Wire Wire Line
+	8200 5100 8100 5100
+Wire Wire Line
+	8100 5100 8100 4900
+Connection ~ 8100 4900
+Wire Wire Line
+	3800 5200 3100 5200
+Wire Wire Line
+	3100 5200 2800 5200
+Wire Wire Line
+	2800 5200 2500 5200
+Wire Wire Line
+	2500 5200 2500 5300
+Wire Wire Line
+	3000 5000 2500 5000
+Wire Wire Line
+	2500 5000 2500 5200
+Wire Wire Line
+	2800 5300 2800 5200
+Wire Wire Line
+	2500 5000 2500 4900
+Wire Wire Line
+	1900 5200 1900 5400
+Wire Wire Line
+	1900 5200 2500 5200
+Connection ~ 2500 5200
+Connection ~ 2800 5200
+Connection ~ 2500 5000
+Connection ~ 3100 5200
+Text Label 3800 5200 0    10   ~ 0
+VBAT
+Wire Wire Line
+	4100 3500 4100 4300
+Text Label 4100 4100 1    70   ~ 0
+VBAT
+Wire Wire Line
+	6500 5700 6500 5600
+Text Label 6500 5700 0    10   ~ 0
+VBAT
+Wire Wire Line
+	10700 2600 10100 2600
+Text Label 10700 2600 0    10   ~ 0
+VBAT
+Wire Wire Line
+	6300 4400 6400 4400
+Wire Wire Line
+	3600 4300 3000 4300
+Text Label 3100 4300 0    70   ~ 0
+ENABLE
+Wire Wire Line
+	3800 5300 3300 5300
+Text Label 3300 5300 0    70   ~ 0
+ENABLE
+Wire Wire Line
+	4200 3500 4200 4300
+Text Label 4200 4100 1    70   ~ 0
+ENABLE
+Wire Wire Line
+	4800 5300 4800 5400
+Wire Wire Line
+	4800 5400 5000 5400
+Connection ~ 5000 5400
+Wire Wire Line
+	4400 3500 4400 4300
+Text Label 4400 4100 1    70   ~ 0
+LBO
+Wire Wire Line
+	4800 5700 5100 5700
+Wire Wire Line
+	5100 5700 5100 5900
+Wire Wire Line
+	5100 5900 6100 5900
+Text Label 4800 5700 0    10   ~ 0
+LBO
+Wire Wire Line
+	6500 6600 6500 6500
+Wire Wire Line
+	8400 2800 8500 2800
+Wire Wire Line
+	8900 2800 9000 2800
+Wire Wire Line
+	9000 2800 9100 2800
+Wire Wire Line
+	8900 3100 9000 3100
+Wire Wire Line
+	9000 3100 9000 2800
+Connection ~ 9000 2800
+Wire Wire Line
+	7100 2600 7300 2600
+Wire Wire Line
+	7300 2600 7700 2600
+Wire Wire Line
+	7700 2600 8000 2600
+Wire Wire Line
+	8000 2600 9100 2600
+Wire Wire Line
+	7700 2700 7700 2600
+Wire Wire Line
+	8100 2800 8000 2800
+Wire Wire Line
+	8000 2800 8000 2600
+Wire Wire Line
+	7400 2700 7300 2700
+Wire Wire Line
+	7300 2700 7300 2600
+Connection ~ 7700 2600
+Connection ~ 8000 2600
+Connection ~ 7300 2600
+Wire Wire Line
+	10100 2700 10300 2700
+Wire Wire Line
+	8500 3100 8400 3100
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:FRAME_A4 #FRAME1
+U 2 0 CC96BE8F
+P 1300 2100
+F 0 "#FRAME1" H 1300 2100 50  0001 C CNN
+F 1 "FRAME_A4" H 1300 2100 50  0001 C CNN
+F 2 "" H 1300 2100 50  0001 C CNN
+F 3 "" H 1300 2100 50  0001 C CNN
+	2    1300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:VREG_TPS6103X U1
+U 1 0 B2CBD2F8
+P 4300 5400
+F 0 "U1" H 3900 6300 56  0000 L BNN
+F 1 "TPS61090RSAR" H 3900 4500 56  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:PVQFN-16" H 4300 5400 50  0001 C CNN
+F 3 "" H 4300 5400 50  0001 C CNN
+	1    4300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:INDUCTORTDK_VLC5045 L1
+U 1 0 117C7455
+P 3200 5000
+F 0 "L1" H 3200 5100 42  0000 C CNN
+F 1 "VLC5045-6.8uH" H 3200 4940 42  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:INDUCTOR_5X5MM_TDK_VLC5045" H 3200 5000 50  0001 C CNN
+F 3 "" H 3200 5000 50  0001 C CNN
+	1    3200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$1
+U 1 0 89E33A62
+P 3100 6700
+F 0 "#U$1" H 3100 6700 50  0001 C CNN
+F 1 "GND" H 3040 6600 42  0000 L BNN
+F 2 "" H 3100 6700 50  0001 C CNN
+F 3 "" H 3100 6700 50  0001 C CNN
+	1    3100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$2
+U 1 0 87B7DF34
+P 3500 6700
+F 0 "#U$2" H 3500 6700 50  0001 C CNN
+F 1 "GND" H 3440 6600 42  0000 L BNN
+F 2 "" H 3500 6700 50  0001 C CNN
+F 3 "" H 3500 6700 50  0001 C CNN
+	1    3500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 0 E7D47EA7
+P 2500 5500
+F 0 "C1" V 2410 5549 50  0000 C CNN
+F 1 "10uF" V 2590 5549 50  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 2500 5500 50  0001 C CNN
+F 3 "" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$4
+U 1 0 649D799B
+P 2500 5800
+F 0 "#U$4" H 2500 5800 50  0001 C CNN
+F 1 "GND" H 2440 5700 42  0000 L BNN
+F 2 "" H 2500 5800 50  0001 C CNN
+F 3 "" H 2500 5800 50  0001 C CNN
+	1    2500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:BATTERY B1
+U 1 0 8020F1B9
+P 1900 5500
+F 0 "B1" H 1800 5625 42  0000 L BNN
+F 1 "1.8-5V" H 1800 5300 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:JSTPH2" H 1900 5500 50  0001 C CNN
+F 3 "" H 1900 5500 50  0001 C CNN
+	1    1900 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$5
+U 1 0 BCE09641
+P 1900 5800
+F 0 "#U$5" H 1900 5800 50  0001 C CNN
+F 1 "GND" H 1840 5700 42  0000 L BNN
+F 2 "" H 1900 5800 50  0001 C CNN
+F 3 "" H 1900 5800 50  0001 C CNN
+	1    1900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 0 00AD4B43
+P 5200 5300
+F 0 "C2" V 5110 5349 50  0000 C CNN
+F 1 "2.2uF" V 5290 5349 50  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 5200 5300 50  0001 C CNN
+F 3 "" H 5200 5300 50  0001 C CNN
+	1    5200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:5.0V #U$7
+U 1 0 63C62AE7
+P 5900 4100
+F 0 "#U$7" H 5900 4100 50  0001 C CNN
+F 1 "5.0V" H 5840 4140 42  0000 L BNN
+F 2 "" H 5900 4100 50  0001 C CNN
+F 3 "" H 5900 4100 50  0001 C CNN
+	1    5900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:FIDUCIAL"" FID2
+U 1 0 AD69ACBC
+P 10500 5700
+F 0 "FID2" H 10500 5700 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10500 5700 50  0001 C CNN
+F 2 "Adafruit PowerBoost 500C:FIDUCIAL_1MM" H 10500 5700 50  0001 C CNN
+F 3 "" H 10500 5700 50  0001 C CNN
+	1    10500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:MOUNTINGHOLE2.5 U$10
+U 1 0 1804A1D3
+P 10500 5900
+F 0 "U$10" H 10500 5900 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10500 5900 50  0001 C CNN
+F 2 "Adafruit PowerBoost 500C:MOUNTINGHOLE_2.5_PLATED" H 10500 5900 50  0001 C CNN
+F 3 "" H 10500 5900 50  0001 C CNN
+	1    10500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:MOUNTINGHOLE2.5 U$12
+U 1 0 CFD8AF76
+P 10300 5900
+F 0 "U$12" H 10300 5900 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10300 5900 50  0001 C CNN
+F 2 "Adafruit PowerBoost 500C:MOUNTINGHOLE_2.5_PLATED" H 10300 5900 50  0001 C CNN
+F 3 "" H 10300 5900 50  0001 C CNN
+	1    10300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:TERMBLOCK_1X2 X1
+U 1 0 8679BB61
+P 6500 5000
+F 0 "X1" H 6400 5300 42  0000 L BNN
+F 1 "TERMBLOCK_1X2" H 6400 4800 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:TERMBLOCK_1X2-3.5MM" H 6500 5000 50  0001 C CNN
+F 3 "" H 6500 5000 50  0001 C CNN
+	1    6500 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R9
+U 1 0 94E82459
+P 7800 4600
+F 0 "R9" H 7800 4700 50  0000 C CNN
+F 1 "75K 1%" H 7800 4600 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 7800 4600 50  0001 C CNN
+F 3 "" H 7800 4600 50  0001 C CNN
+	1    7800 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R10
+U 1 0 43F0C65C
+P 7800 4900
+F 0 "R10" H 7800 5000 50  0000 C CNN
+F 1 "49.9K 1%" H 7800 4900 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 7800 4900 50  0001 C CNN
+F 3 "" H 7800 4900 50  0001 C CNN
+	1    7800 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R11
+U 1 0 808B4B4F
+P 7800 5400
+F 0 "R11" H 7800 5500 50  0000 C CNN
+F 1 "75K 1%" H 7800 5400 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 7800 5400 50  0001 C CNN
+F 3 "" H 7800 5400 50  0001 C CNN
+	1    7800 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R12
+U 1 0 7A80ADEA
+P 7800 5700
+F 0 "R12" H 7800 5800 50  0000 C CNN
+F 1 "49.9K 1%" H 7800 5700 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 7800 5700 50  0001 C CNN
+F 3 "" H 7800 5700 50  0001 C CNN
+	1    7800 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:USB_TYPEAPTHFML CN1
+U 1 0 EF757357
+P 8600 5200
+F 0 "CN1" H 8200 5540 42  0000 L BNN
+F 1 "USBA_FEMALE" H 8200 4800 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:USB_HOST-PTH" H 8600 5200 50  0001 C CNN
+F 3 "" H 8600 5200 50  0001 C CNN
+	1    8600 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:5.0V #U$15
+U 1 0 0C3EC839
+P 7500 4400
+F 0 "#U$15" H 7500 4400 50  0001 C CNN
+F 1 "5.0V" H 7440 4440 42  0000 L BNN
+F 2 "" H 7500 4400 50  0001 C CNN
+F 3 "" H 7500 4400 50  0001 C CNN
+	1    7500 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:5.0V #U$16
+U 1 0 44B01CF5
+P 7500 5200
+F 0 "#U$16" H 7500 5200 50  0001 C CNN
+F 1 "5.0V" H 7440 5240 42  0000 L BNN
+F 2 "" H 7500 5200 50  0001 C CNN
+F 3 "" H 7500 5200 50  0001 C CNN
+	1    7500 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:5.0V #U$17
+U 1 0 29AF302F
+P 8200 4800
+F 0 "#U$17" H 8200 4800 50  0001 C CNN
+F 1 "5.0V" H 8140 4840 42  0000 L BNN
+F 2 "" H 8200 4800 50  0001 C CNN
+F 3 "" H 8200 4800 50  0001 C CNN
+	1    8200 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:VBAT #U$19
+U 1 0 1DEA58DA
+P 2500 4800
+F 0 "#U$19" H 2500 4800 50  0001 C CNN
+F 1 "VBAT" H 2440 4840 42  0000 L BNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:LED0805_NOOUTLINE PWR
+U 1 0 66354594
+P 6200 4400
+F 0 "PWR" H 6000 4525 42  0000 L BNN
+F 1 "BLUE" H 6000 4290 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:CHIPLED_0805_NOOUTLINE" H 6200 4400 50  0001 C CNN
+F 3 "" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R5
+U 1 0 B5D62C7B
+P 6600 4400
+F 0 "R5" H 6600 4500 50  0000 C CNN
+F 1 "1K" H 6600 4400 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 6600 4400 50  0001 C CNN
+F 3 "" H 6600 4400 50  0001 C CNN
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R13
+U 1 0 39D92388
+P 3000 4100
+F 0 "R13" H 3000 4200 50  0000 C CNN
+F 1 "340K" H 3000 4100 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 3000 4100 50  0001 C CNN
+F 3 "" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:VBAT #U$27
+U 1 0 88B45EA1
+P 3000 3800
+F 0 "#U$27" H 3000 3800 50  0001 C CNN
+F 1 "VBAT" H 2940 3840 42  0000 L BNN
+F 2 "" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$24
+U 1 0 5D73C6FF
+P 2800 5700
+F 0 "#U$24" H 2800 5700 50  0001 C CNN
+F 1 "GND" H 2740 5600 42  0000 L BNN
+F 2 "" H 2800 5700 50  0001 C CNN
+F 3 "" H 2800 5700 50  0001 C CNN
+	1    2800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C4
+U 1 0 03F6E73E
+P 2800 5500
+F 0 "C4" V 2710 5549 50  0000 C CNN
+F 1 "0.1uF" V 2890 5549 50  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 2800 5500 50  0001 C CNN
+F 3 "" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 0 D19AE326
+P 5000 5200
+F 0 "R3" H 5000 5300 50  0000 C CNN
+F 1 "1.87Mohm" H 5000 5200 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 5000 5200 50  0001 C CNN
+F 3 "" H 5000 5200 50  0001 C CNN
+	1    5000 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R4
+U 1 0 AFC485DA
+P 5000 5600
+F 0 "R4" H 5000 5700 50  0000 C CNN
+F 1 "200K" H 5000 5600 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 5000 5600 50  0001 C CNN
+F 3 "" H 5000 5600 50  0001 C CNN
+	1    5000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$3
+U 1 0 6E1B97F5
+P 5000 6700
+F 0 "#U$3" H 5000 6700 50  0001 C CNN
+F 1 "GND" H 4940 6600 42  0000 L BNN
+F 2 "" H 5000 6700 50  0001 C CNN
+F 3 "" H 5000 6700 50  0001 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$6
+U 1 0 CE08125E
+P 5200 5600
+F 0 "#U$6" H 5200 5600 50  0001 C CNN
+F 1 "GND" H 5140 5500 42  0000 L BNN
+F 2 "" H 5200 5600 50  0001 C CNN
+F 3 "" H 5200 5600 50  0001 C CNN
+	1    5200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$8
+U 1 0 59F585D1
+P 5500 5600
+F 0 "#U$8" H 5500 5600 50  0001 C CNN
+F 1 "GND" H 5440 5500 42  0000 L BNN
+F 2 "" H 5500 5600 50  0001 C CNN
+F 3 "" H 5500 5600 50  0001 C CNN
+	1    5500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$9
+U 1 0 9E0009A5
+P 6200 5300
+F 0 "#U$9" H 6200 5300 50  0001 C CNN
+F 1 "GND" H 6140 5200 42  0000 L BNN
+F 2 "" H 6200 5300 50  0001 C CNN
+F 3 "" H 6200 5300 50  0001 C CNN
+	1    6200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$14
+U 1 0 0B5D2212
+P 6900 4600
+F 0 "#U$14" H 6900 4600 50  0001 C CNN
+F 1 "GND" H 6840 4500 42  0000 L BNN
+F 2 "" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$18
+U 1 0 5210CFB4
+P 7500 5000
+F 0 "#U$18" H 7500 5000 50  0001 C CNN
+F 1 "GND" H 7440 4900 42  0000 L BNN
+F 2 "" H 7500 5000 50  0001 C CNN
+F 3 "" H 7500 5000 50  0001 C CNN
+	1    7500 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$21
+U 1 0 CA2824D4
+P 7500 5900
+F 0 "#U$21" H 7500 5900 50  0001 C CNN
+F 1 "GND" H 7440 5800 42  0000 L BNN
+F 2 "" H 7500 5900 50  0001 C CNN
+F 3 "" H 7500 5900 50  0001 C CNN
+	1    7500 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$22
+U 1 0 585CEF8C
+P 8200 5600
+F 0 "#U$22" H 8200 5600 50  0001 C CNN
+F 1 "GND" H 8140 5500 42  0000 L BNN
+F 2 "" H 8200 5600 50  0001 C CNN
+F 3 "" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 0 E1A3DAAF
+P 3100 6300
+F 0 "R2" H 3100 6400 50  0000 C CNN
+F 1 "340K" H 3100 6300 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 3100 6300 50  0001 C CNN
+F 3 "" H 3100 6300 50  0001 C CNN
+	1    3100 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 0 25F60968
+P 3100 5400
+F 0 "R1" H 3100 5500 50  0000 C CNN
+F 1 "1.87Mohm" H 3100 5400 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 3100 5400 50  0001 C CNN
+F 3 "" H 3100 5400 50  0001 C CNN
+	1    3100 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:CAP_TANTALUMB_3528_REFLOW C5
+U 1 0 7576F716
+P 5500 5300
+F 0 "C5" V 5406 5349 50  0000 C CNN
+F 1 "100uF/6V" V 5598 5349 50  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:EIA3528-21_B-R" H 5500 5300 50  0001 C CNN
+F 3 "" H 5500 5300 50  0001 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:PINHD-1X6CB JP1
+U 1 0 0B60073D
+P 4400 3400
+F 0 "JP1" H 4150 3825 59  0000 L BNN
+F 1 "PINHD-1X6CB" H 4150 3000 59  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:1X06-CLEANBIG" H 4400 3400 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:LED0805_NOOUTLINE LBO
+U 1 0 9D023DDD
+P 6500 6800
+F 0 "LBO" H 6300 6925 42  0000 L BNN
+F 1 "RED" H 6300 6690 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:CHIPLED_0805_NOOUTLINE" H 6500 6800 50  0001 C CNN
+F 3 "" H 6500 6800 50  0001 C CNN
+	1    6500 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R20
+U 1 0 1EE8AEA6
+P 6500 6300
+F 0 "R20" H 6500 6400 50  0000 C CNN
+F 1 "1K" H 6500 6300 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 6500 6300 50  0001 C CNN
+F 3 "" H 6500 6300 50  0001 C CNN
+	1    6500 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$20
+U 1 0 A9A82E2E
+P 6500 7000
+F 0 "#U$20" H 6500 7000 50  0001 C CNN
+F 1 "GND" H 6440 6900 42  0000 L BNN
+F 2 "" H 6500 7000 50  0001 C CNN
+F 3 "" H 6500 7000 50  0001 C CNN
+	1    6500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:VBAT #U$11
+U 1 0 ABBF7E6D
+P 6500 5500
+F 0 "#U$11" H 6500 5500 50  0001 C CNN
+F 1 "VBAT" H 6440 5540 42  0000 L BNN
+F 2 "" H 6500 5500 50  0001 C CNN
+F 3 "" H 6500 5500 50  0001 C CNN
+	1    6500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:-PNP_DRIVER-SC59-BEC Q1
+U 1 0 673A911B
+P 6400 5900
+F 0 "Q1" H 6600 5900 59  0000 L BNN
+F 1 "MMUN2133LT1G" H 6600 5800 59  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:SC59-BEC" H 6400 5900 50  0001 C CNN
+F 3 "" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:FIDUCIAL"" FID3
+U 1 0 C6D146FB
+P 10300 5700
+F 0 "FID3" H 10300 5700 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10300 5700 50  0001 C CNN
+F 2 "Adafruit PowerBoost 500C:FIDUCIAL_1MM" H 10300 5700 50  0001 C CNN
+F 3 "" H 10300 5700 50  0001 C CNN
+F 4 "EXCLUDE" H 10300 5700 50  0001 C CNN "BOM"
+	1    10300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:MCP73831_2 U2
+U 1 0 45046DC1
+P 9600 2700
+F 0 "U2" H 9200 3150 42  0000 L BNN
+F 1 "MCP73831T-2ACI/OT" H 9200 2200 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:SOT23-5" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:LED0805_NOOUTLINE LED3
+U 1 0 5D62FDCA
+P 8300 2800
+F 0 "LED3" H 8100 2925 42  0000 L BNN
+F 1 "ORANGE" H 8100 2690 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:CHIPLED_0805_NOOUTLINE" H 8300 2800 50  0001 C CNN
+F 3 "" H 8300 2800 50  0001 C CNN
+	1    8300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:LED0805_NOOUTLINE LED4
+U 1 0 10678902
+P 8200 3100
+F 0 "LED4" H 8000 3225 42  0000 L BNN
+F 1 "GREEN" H 8000 2990 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:CHIPLED_0805_NOOUTLINE" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R6
+U 1 0 CB5AD9AF
+P 8700 2800
+F 0 "R6" H 8700 2900 50  0000 C CNN
+F 1 "470" H 8700 2800 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 8700 2800 50  0001 C CNN
+F 3 "" H 8700 2800 50  0001 C CNN
+	1    8700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R7
+U 1 0 9948B25F
+P 8700 3100
+F 0 "R7" H 8700 3200 50  0000 C CNN
+F 1 "1K" H 8700 3100 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$30
+U 1 0 A87AFBDE
+P 7400 3300
+F 0 "#U$30" H 7400 3300 50  0001 C CNN
+F 1 "GND" H 7340 3200 42  0000 L BNN
+F 2 "" H 7400 3300 50  0001 C CNN
+F 3 "" H 7400 3300 50  0001 C CNN
+	1    7400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 0 6333BD7E
+P 7700 2900
+F 0 "C6" V 7610 2949 50  0000 C CNN
+F 1 "10µF" V 7790 2949 50  0000 C CNN
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 7700 2900 50  0001 C CNN
+F 3 "" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$31
+U 1 0 BD08BF3C
+P 7700 3300
+F 0 "#U$31" H 7700 3300 50  0001 C CNN
+F 1 "GND" H 7640 3200 42  0000 L BNN
+F 2 "" H 7700 3300 50  0001 C CNN
+F 3 "" H 7700 3300 50  0001 C CNN
+	1    7700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:RESISTOR0805_NOOUTLINE R8
+U 1 0 8D38E74C
+P 10500 2700
+F 0 "R8" H 10500 2800 50  0000 C CNN
+F 1 "2k" H 10500 2700 40  0000 C CNB
+F 2 "Adafruit PowerBoost 500C:0805-NO" H 10500 2700 50  0001 C CNN
+F 3 "" H 10500 2700 50  0001 C CNN
+	1    10500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$32
+U 1 0 F4AAF165
+P 10700 3700
+F 0 "#U$32" H 10700 3700 50  0001 C CNN
+F 1 "GND" H 10640 3600 42  0000 L BNN
+F 2 "" H 10700 3700 50  0001 C CNN
+F 3 "" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:GND #U$33
+U 1 0 6953EFA5
+P 8000 3300
+F 0 "#U$33" H 8000 3300 50  0001 C CNN
+F 1 "GND" H 7940 3200 42  0000 L BNN
+F 2 "" H 8000 3300 50  0001 C CNN
+F 3 "" H 8000 3300 50  0001 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:USBMICRO_20329 X2
+U 1 0 BC52CF59
+P 6700 2800
+F 0 "X2" H 6300 3140 42  0000 L BNN
+F 1 "microUSB" H 6300 2400 42  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:4UCONN_20329" H 6700 2800 50  0001 C CNN
+F 3 "" H 6700 2800 50  0001 C CNN
+	1    6700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:HEADER-1X2ROUND JP2
+U 1 0 BAFA783C
+P 7500 2800
+F 0 "JP2" H 7250 3025 59  0000 L BNN
+F 1 "HEADER-1X2ROUND" H 7250 2600 59  0000 L BNN
+F 2 "Adafruit PowerBoost 500C:1X02_ROUND" H 7500 2800 50  0001 C CNN
+F 3 "" H 7500 2800 50  0001 C CNN
+	1    7500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:VBAT #U$34
+U 1 0 1AF98053
+P 10700 2500
+F 0 "#U$34" H 10700 2500 50  0001 C CNN
+F 1 "VBAT" H 10640 2540 42  0000 L BNN
+F 2 "" H 10700 2500 50  0001 C CNN
+F 3 "" H 10700 2500 50  0001 C CNN
+	1    10700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerBoost_500C-eagle-import:FRAME_A4_ADAFRUIT #U$23
+U 1 0 3E99C09D
+P 1100 7600
+F 0 "#U$23" H 1100 7600 50  0001 C CNN
+F 1 "FRAME_A4_ADAFRUIT" H 1100 7600 50  0001 C CNN
+F 2 "" H 1100 7600 50  0001 C CNN
+F 3 "" H 1100 7600 50  0001 C CNN
+	1    1100 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 2500 5900 0    59   ~ 0
+See Pg 15\n1st para
+Text Notes 2900 4800 0    59   ~ 0
+6.8uH power\nw/2A current
+Text Notes 2000 6900 0    59   ~ 0
+R2 < 500K\nR1 = 5.5*R2 (3.2V LBO)
+Text Notes 5000 4800 0    59   ~ 0
+R4 = 200K\nR3 = 1.85Mohm
+Text Notes 10100 2300 0    59   ~ 0
+2.0K  = 500mA
+$EndSCHEMATC

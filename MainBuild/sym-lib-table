@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Power_Management)(type Legacy)(uri C:/Users/owner/Desktop/Andy/Elephant/MainBuild/PowerManagement/Power_Management.lib)(options "")(descr ""))
+  (lib (name Firebeetle)(type Legacy)(uri C:/Users/owner/Desktop/Andy/Elephant/MainBuild/Firebeetle/Firebeetle.lib)(options "")(descr ""))
+)

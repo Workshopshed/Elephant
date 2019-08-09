@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Elephant Control Panel</title>
+<script>
+    function move(dir) {
+    document.getElementById("response").innerHTML = dir;
+    var xhr = new XMLHttpRequest();
+    xhr.timeout = 500;
+    xhr.ontimeout = function (e) {
+        document.getElementById("response").innerHTML = "Elephant not responding";
+    };
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4) {
+        document.getElementById("response").innerHTML = this.responseText;
+        }
+    };
+    xhr.open("POST", "/" + dir, true);
+    xhr.send(); 
+}
+</script>
+
+</head>
+
+<body>
+    <nav>
+        <p>
+        <button type="button" onclick="move('left')">&lt;</button>
+        <button type="button" onclick="move('forward')">^</button>
+        <button type="button" onclick="move('right')">&gt;</button>
+        </p>
+        <p><button type="button" onclick="move('stop')">Stop</button></p>
+    </nav>
+    <p id="response"></p>
+</body>
+
+</html>
+
+
+
